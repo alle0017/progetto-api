@@ -1,0 +1,26 @@
+{
+      "name": "C++ Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/main",
+      "args": ["<", "${workspaceFolder}/test.txt"],
+      "environment": [{ "name": "config", "value": "Debug" }],
+      "cwd": "${workspaceFolder}",
+      "configurations": [
+            
+
+            {
+                  "name": "(lldb) Launch",
+                  "type": "cppdbg",
+                  "request": "launch",
+                  "program": "immettere il nome del programma, ad esempio ${workspaceFolder}/a.out",
+                  "args": ["<", "${workspaceFolder}/test.txt"],
+                  "stopAtEntry": false,
+                  "cwd": "${fileDirname}",
+                  "environment": [],
+                  "externalConsole": false,
+                  "MIMode": "lldb"
+            }
+
+      ]
+}

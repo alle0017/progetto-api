@@ -1,0 +1,15 @@
+{
+      "files.associations": {
+            "__node_handle": "c",
+            "limits": "c",
+            "ratio": "c",
+            "algorithm": "c",
+            "store.h": "c",
+            "hash.h": "c",
+            "functions.h": "c",
+            "__hash_table": "cpp",
+            "unordered_map": "cpp",
+            "heap": "c",
+            "recipes.h": "c"
+      }
+}
